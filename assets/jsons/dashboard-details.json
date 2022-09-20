@@ -1,0 +1,339 @@
+{
+  "status": true,
+  "message": "Details found!",
+  "result": {
+    "top_banner": [
+      {
+        "id": 101,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 102,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 103,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 104,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 105,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 106,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 107,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 108,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 109,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 110,
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      }
+    ],
+    "neu_coins": {
+      "title": "NeuCoins",
+      "value": 0,
+      "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+    },
+    "explore": [
+      {
+        "id": 101,
+        "title": "Grocery",
+        "color": "0xFF5B822C",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 102,
+        "title": "Mobiles",
+        "color": "0xFFBE3C2B",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 103,
+        "title": "Medicines",
+        "color": "0xFF6A42BA",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 104,
+        "title": "Instant Grocery",
+        "color": "0xFF7EA33A",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 105,
+        "title": "TV & appliance",
+        "color": "0xFFCF8730",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 106,
+        "title": "Electronics",
+        "color": "0xFFC28E35",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 107,
+        "title": "Faishan",
+        "color": "0xFF63AABC",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 108,
+        "title": "Hotels",
+        "color": "0xFFEF9235",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 109,
+        "title": "Lab tests",
+        "color": "0xFF376A8F",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 110,
+        "title": "Luxury",
+        "color": "0xFFB72678",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 111,
+        "title": "Beauty",
+        "color": "0xFFDB9193",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 112,
+        "title": "Flights",
+        "color": "0xFF59B168",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 113,
+        "title": "Entertainment",
+        "color": "0xFF570CB8",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 114,
+        "title": "Fitness",
+        "color": "0xFFBF3E7A",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      },
+      {
+        "id": 115,
+        "title": "Eat & drink",
+        "color": "0xFF51B0C5",
+        "brand_logo_urls": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        ],
+        "banner_url": "https://soliloquywp.com/wp-content/uploads/2018/01/text-only-carousel-slider-wordpress.jpg"
+      }
+    ],
+    "grocery_top_offers": {
+      "title": "Top offers on grocery",
+      "description": "+Assured 5% NeuCoins | Free delivery",
+      "items": [
+        {
+          "id": 101,
+          "title": "Fruits & Vegetables",
+          "subtitle": "",
+          "offer": "Up to 30% off",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 102,
+          "title": "Foodgrains, Oils & Masalas",
+          "subtitle": "",
+          "offer": "Up to 30% off",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 103,
+          "title": "Bakery, Cakes & Dairy",
+          "subtitle": "",
+          "offer": "Up to 60% off",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 104,
+          "title": "Snacks & Branded foods",
+          "subtitle": "",
+          "offer": "Up to 30% off",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 105,
+          "title": "Cleaning & Household",
+          "subtitle": "",
+          "offer": "Up to 50% off",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 106,
+          "title": "1Lac+# products at lowest prices",
+          "subtitle": "",
+          "offer": "View more",
+          "color": "",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        }
+      ]
+    },
+    "entertainment_stores": {
+      "title": "Entertainment store - TV & Audio devices",
+      "description": "",
+      "items": [
+        {
+          "id": 101,
+          "title": "boAt Airdopes 138 TWS |\nFrom 999*",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFF7167DF",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 102,
+          "title": "Apple Airpods starting\nFrom ₹12,999*",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFFDA64AB",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 103,
+          "title": "pTron Bassbuds Duo |\nJust ₹899*",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFF85CDDB",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 104,
+          "title": "boAt Stone Grenade 5W Speaker | Just ₹899",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFFC463E7",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 105,
+          "title": "Realme Smart LED TVs |\nFrom ₹13,499*",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFF8EDF87",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 106,
+          "title": "Croma TVs | Starting from ₹6,990*",
+          "subtitle": "",
+          "offer": "+5%\nNeuCoins*",
+          "color": "0xFF5865F6",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        }
+      ]
+    },
+    "speciality_stores": {
+      "title": "Our speciality stores",
+      "description": "",
+      "items": [
+        {
+          "id": 101,
+          "title": "Smartphones\nunder\n₹19,999",
+          "subtitle": "",
+          "offer": "",
+          "color": "0xFF5FCE8E",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 102,
+          "title": "The\nWestside\nstore",
+          "subtitle": "",
+          "offer": "",
+          "color": "0xFF5F69DB",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 103,
+          "title": "The footwear store",
+          "subtitle": "",
+          "offer": "",
+          "color": "0xFF5767DD",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        },
+        {
+          "id": 104,
+          "title": "25% off",
+          "subtitle": "on food",
+          "offer": "",
+          "color": "0xFFEA3C6D",
+          "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx57kPan2BGBoh0-v_FBQMRqm17Obb_JJSjzAppCIHrnEEQDn-T03cIwRIGtG6ILO3loM&usqp=CAU"
+        }
+      ]
+    }
+  }
+}
