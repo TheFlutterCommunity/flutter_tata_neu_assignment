@@ -61,10 +61,10 @@ class _SplashViewState extends State<SplashView> {
       ),
       child: IntrinsicHeight(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Expanded(flex: 4, child: _buildAppLogoSection()),
-            Expanded(flex: 7, child: _buildMiddleTitleBar()),
-            Expanded(flex: 6, child: _buildFooterSection())
+            _buildMiddleTitleBar(),
+            _buildFooterSection()
           ],
         ),
       ),
@@ -82,49 +82,31 @@ class _SplashViewState extends State<SplashView> {
     );
   }
 
-  Widget _buildAppLogoSection() {
-    return Container(
-      margin: EdgeInsets.only(top: ResponsiveWidget.splashTitlePaddingTop()),
-      padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
-      alignment: Alignment.topCenter,
-      child: Image.asset(
-        IconConstants.tataLogoIcon,
-        width: 100,
-        height: 100,
-      ),
-    );
-  }
 
   Widget _buildMiddleTitleBar() {
-    return Column(
-      children: [
-        CustomText(
-            text: AppLocalizations.of(context).translate("app_title"),
-            fontSize: 20,
-            color: AppColor.orange_1,
-            fontFamily: FontFamilyConstants.interRegular,
-            fontWeight: FontWeight.w800),
-        const SizedBox(
-          height: 13,
+    return Expanded(
+      child: Center(
+        child: Container(
+          alignment: Alignment.center,
+          child: Image.asset(IconConstants.tataNeuLogo1,
+          height: 250,
+          width: 250,)
         ),
-        CustomText(
-            text: AppLocalizations.of(context).translate("app_title"),
-            fontSize: 18,
-            color: AppColor.green,
-            fontFamily: FontFamilyConstants.interRegular,
-            fontWeight: FontWeight.w700),
-      ],
+      ),
     );
   }
 
   Widget _buildFooterSection() {
-    return Align(
-      alignment: Alignment.bottomCenter,
-      child: Image.asset(
-        IconConstants.logoIcon,
-        height: 48,
-        width: 48,
-      ),
-    );
+    return
+      Container(
+        alignment: Alignment.bottomCenter,
+        padding: EdgeInsets.only(bottom: 20),
+        child: CustomText(
+            text: AppLocalizations.of(context).translate("copyrights"),
+            fontSize: 14,
+            color: AppColor.grey_2,
+            fontFamily: FontFamilyConstants.interRegular,
+        ),
+      );
   }
 }
