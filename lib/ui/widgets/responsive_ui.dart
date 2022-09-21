@@ -134,7 +134,7 @@ class ResponsiveWidget {
         ? 300
         : isScreenMedium!
             ? 300
-            : 300;
+            : 250;
   }
 
   static double searchIconSize() {
@@ -166,5 +166,35 @@ class ResponsiveWidget {
         : isScreenMedium!
             ? 90
             : 90;
+  }
+
+  static double entertainmentTitleFontSize() {
+    return isScreenLarge!
+        ? 18
+        : isScreenMedium!
+        ? 18
+        : 16;
+  }
+  static double entertainmentCardTitleFontSize() {
+    return isScreenLarge!
+        ? 16
+        : isScreenMedium!
+        ? 16
+        : 14;
+  }
+  static double entertainmentCardOfferTitleFontSize() {
+    return isScreenLarge!
+        ? 16
+        : isScreenMedium!
+        ? 16
+        : 12;
+  }
+
+  static double ourSpecialityStoresAspectRatioSize() {
+    return isScreenLarge!
+        ? 1.50
+        : isScreenMedium!
+        ? 1.50
+        : 1.40;
   }
 }

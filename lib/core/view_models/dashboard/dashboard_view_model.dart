@@ -43,9 +43,10 @@ class DashboardViewModel extends BaseModel {
     state = ViewState.busy;
     try {
       APIResponse? response = await _apiRepository.getDashboardDetails();
-      log("getProfileDetails:: Response:: ${json.encode(response)}");
+      //log("getProfileDetails:: Response:: ${json.encode(response)}");
       if (response.status == true) {
         _dashboardDetails = response.result;
+        log("getProfileDetails:: Response:: ${json.encode(_dashboardDetails!.topBanner)}");
         state = ViewState.idle;
         return true;
       } else {

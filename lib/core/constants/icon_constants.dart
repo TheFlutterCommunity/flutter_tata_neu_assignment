@@ -5,4 +5,9 @@ class IconConstants {
   static String scanIcon = 'assets/icons/ic_scan.jpg';
   static String tataNeuLogo1 = 'assets/icons/ic_tata_neu_logo_icon.jpg';
   static String copyrightIcon = 'assets/icons/ic_copyright_icon_logo.png';
+  static String groceryIcon = 'assets/icons/ic_grocery.png';
+  static String coinsIcon = 'assets/icons/ic_coins_img.png';
+  static String groceryOfferIcon = 'assets/icons/ic_grocery_offer.png';
+  static String earbudsIcon = 'assets/icons/ic_earbuds.png';
+  static String tataNeuBottomIcon = 'assets/icons/ic_tata_neu_bottom_logo.png';
 }
