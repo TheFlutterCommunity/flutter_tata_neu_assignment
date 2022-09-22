@@ -1,3 +1,1 @@
-class ImageConstants {
-
-}
+class ImageConstants {}

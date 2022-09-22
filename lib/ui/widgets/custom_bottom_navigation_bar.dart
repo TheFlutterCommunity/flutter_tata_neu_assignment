@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_tata_neu_assignment/core/constants/app_colors.dart';
 import 'package:flutter_tata_neu_assignment/core/constants/font_family_constants.dart';
@@ -14,18 +16,18 @@ class CustomBottomNavigationBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 80,
+      height: 90,
       padding: const EdgeInsets.only(bottom: 5),
       child: BottomNavigationBar(
         currentIndex: currentIndex!,
         onTap: (index) => onItemChange!(index),
         selectedLabelStyle: TextStyle(
-            fontSize: 14,
+            fontSize: Platform.isIOS ? 10 : 14,
             fontWeight: FontWeight.w400,
             fontFamily: FontFamilyConstants.interRegular,
             color: AppColor.grey_70),
         unselectedLabelStyle: TextStyle(
-            fontSize: 14,
+            fontSize: Platform.isIOS ? 10 : 14,
             fontWeight: FontWeight.w400,
             fontFamily: FontFamilyConstants.interRegular,
             color: AppColor.grey_70),

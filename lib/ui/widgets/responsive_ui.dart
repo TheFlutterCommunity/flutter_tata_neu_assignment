@@ -51,10 +51,10 @@ class ResponsiveWidget {
 
   static double splashTitlePaddingTop() {
     return isScreenLarge!
-        ?  71
+        ? 71
         : isScreenMedium!
-        ? 41
-        : 71;
+            ? 41
+            : 71;
   }
 
   static double appBarMarginTop() {
@@ -71,6 +71,14 @@ class ResponsiveWidget {
         : isScreenMedium!
             ? 56
             : 56;
+  }
+
+  static double splashAppLogoSize() {
+    return isScreenLarge!
+        ? 260
+        : isScreenMedium!
+            ? 250
+            : 240;
   }
 
   static double logoContainerHeight() {
@@ -155,11 +163,12 @@ class ResponsiveWidget {
 
   static double neuCoinsCardHeight() {
     return isScreenLarge!
-        ? 84
+        ? 94
         : isScreenMedium!
-            ? 80
-            : 72;
+            ? 90
+            : 80;
   }
+
   static double exploreCardHeight() {
     return isScreenLarge!
         ? 90
@@ -172,29 +181,31 @@ class ResponsiveWidget {
     return isScreenLarge!
         ? 18
         : isScreenMedium!
-        ? 18
-        : 16;
+            ? 18
+            : 16;
   }
+
   static double entertainmentCardTitleFontSize() {
     return isScreenLarge!
         ? 16
         : isScreenMedium!
-        ? 16
-        : 14;
+            ? 16
+            : 14;
   }
+
   static double entertainmentCardOfferTitleFontSize() {
     return isScreenLarge!
         ? 16
         : isScreenMedium!
-        ? 16
-        : 12;
+            ? 16
+            : 12;
   }
 
   static double ourSpecialityStoresAspectRatioSize() {
     return isScreenLarge!
         ? 1.50
         : isScreenMedium!
-        ? 1.50
-        : 1.40;
+            ? 1.50
+            : 1.40;
   }
 }

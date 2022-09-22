@@ -159,12 +159,12 @@ class AppColor {
   static const Color grey_3 = Color(0xff494a4d);
   static const Color black = Color(0xff000000);
   static const Color purple_18 = Color(0xff180031);
-  static const Color pink_fe = Color(0xfffe0096);
-  static const Color orange_fb = Color(0xfffb9c38);
-  static const Color light_red = Color(0xffbe3b49);
-  static const Color dark_red = Color(0xff781821);
-  static const Color dark_purple = Color(0xff150221);
-  static const Color light_purple = Color(0xff4d435e);
-  static const Color light_blue = Color(0xff00bbc7);
-  static const Color green_02 = Color(0xff01d185);
+  static const Color pink_1 = Color(0xfffe0096);
+  static const Color orange_2 = Color(0xfffb9c38);
+  static const Color lightRed = Color(0xffbe3b49);
+  static const Color darkRed = Color(0xff781821);
+  static const Color darkPurple = Color(0xff150221);
+  static const Color lightPurple = Color(0xff4d435e);
+  static const Color lightBlue = Color(0xff00bbc7);
+  static const Color green_3 = Color(0xff01d185);
 }

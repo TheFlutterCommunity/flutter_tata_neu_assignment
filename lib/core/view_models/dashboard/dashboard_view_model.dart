@@ -43,10 +43,9 @@ class DashboardViewModel extends BaseModel {
     state = ViewState.busy;
     try {
       APIResponse? response = await _apiRepository.getDashboardDetails();
-      //log("getProfileDetails:: Response:: ${json.encode(response)}");
       if (response.status == true) {
         _dashboardDetails = response.result;
-        log("getProfileDetails:: Response:: ${json.encode(_dashboardDetails!.topBanner)}");
+        log("getProfileDetails:: Response:: ${json.encode(_dashboardDetails!)}");
         state = ViewState.idle;
         return true;
       } else {
@@ -55,14 +54,14 @@ class DashboardViewModel extends BaseModel {
             message: response.message != null
                 ? response.message!
                 : 'Failed to get details!');
+        state = ViewState.error;
+        return false;
       }
-      state = ViewState.idle;
-      return false;
     } catch (err) {
-      error = 'Failed to get details!';
       log('Error: $err');
+      error = 'Failed to get details!';
       HelperUtils.showToast(message: 'Failed to get details!');
-      state = ViewState.idle;
+      state = ViewState.error;
       return false;
     }
   }

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.thefluttercommunity.flutter_tata_neu_assignment">
    <application
-        android:label="flutter_tata_neu_assignment"
+        android:label="Tata Neu Assignment"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

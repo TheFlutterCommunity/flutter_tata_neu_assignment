@@ -4,7 +4,6 @@ import 'package:flutter_tata_neu_assignment/core/constants/prefs_constants.dart'
 import 'package:shared_preferences/shared_preferences.dart';
 
 class PrefsHelper {
-
   static SharedPreferences? prefs;
 
   static Future<void> init() async {

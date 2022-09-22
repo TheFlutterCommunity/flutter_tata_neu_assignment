@@ -28,10 +28,6 @@ class _SplashViewState extends State<SplashView> {
       if (kDebugMode) {
         print('Height: ${ResponsiveWidget.height}');
         print('Width: ${ResponsiveWidget.width}');
-        print('Pixel Ratio: ${ResponsiveWidget.pixelRatio}');
-        print('isLarge: ${ResponsiveWidget.isScreenLarge}');
-        print('isMedium: ${ResponsiveWidget.isScreenMedium}');
-        print('isSmall: ${ResponsiveWidget.isScreenSmall}');
       }
     });
 
@@ -57,16 +53,14 @@ class _SplashViewState extends State<SplashView> {
   Widget _buildBody() {
     return Container(
       constraints: BoxConstraints(
-        minHeight: MediaQuery.of(context).size.height,
+        minHeight: ResponsiveWidget.height!,
       ),
-      child: IntrinsicHeight(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            _buildMiddleTitleBar(),
-            _buildFooterSection()
-          ],
-        ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          _buildMiddleTitleBar(),
+          _buildFooterSection(),
+        ],
       ),
     );
   }
@@ -82,31 +76,28 @@ class _SplashViewState extends State<SplashView> {
     );
   }
 
-
   Widget _buildMiddleTitleBar() {
     return Expanded(
       child: Center(
-        child: Container(
-          alignment: Alignment.center,
-          child: Image.asset(IconConstants.tataNeuLogo1,
-          height: 250,
-          width: 250,)
+        child: Image.asset(
+          IconConstants.tataNeuLogo1,
+          height: ResponsiveWidget.splashAppLogoSize(),
+          width: ResponsiveWidget.splashAppLogoSize(),
         ),
       ),
     );
   }
 
   Widget _buildFooterSection() {
-    return
-      Container(
-        alignment: Alignment.bottomCenter,
-        padding: EdgeInsets.only(bottom: 20),
-        child: CustomText(
-            text: AppLocalizations.of(context).translate("copyrights"),
-            fontSize: 14,
-            color: AppColor.grey_2,
-            fontFamily: FontFamilyConstants.interRegular,
-        ),
-      );
+    return Container(
+      alignment: Alignment.bottomCenter,
+      padding: const EdgeInsets.only(bottom: 20),
+      child: CustomText(
+        text: AppLocalizations.of(context).translate("copyrights"),
+        fontSize: 14,
+        color: AppColor.grey_2,
+        fontFamily: FontFamilyConstants.interRegular,
+      ),
+    );
   }
 }

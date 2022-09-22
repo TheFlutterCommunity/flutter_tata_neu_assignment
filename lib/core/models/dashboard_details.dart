@@ -77,7 +77,8 @@ class Explore {
   @JsonKey(name: 'banner_url')
   String? bannerUrl;
 
-  Explore({this.id, this.title, this.color, this.brandLogoUrls, this.bannerUrl});
+  Explore(
+      {this.id, this.title, this.color, this.brandLogoUrls, this.bannerUrl});
 
   factory Explore.fromJson(Map<String, dynamic> json) =>
       _$ExploreFromJson(json);

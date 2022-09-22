@@ -5,7 +5,8 @@ import 'package:flutter_tata_neu_assignment/core/models/dialog_request.dart';
 import 'package:flutter_tata_neu_assignment/core/models/dialog_response.dart';
 
 class DialogService {
-  final GlobalKey<NavigatorState> _dialogNavigationKey = GlobalKey<NavigatorState>();
+  final GlobalKey<NavigatorState> _dialogNavigationKey =
+      GlobalKey<NavigatorState>();
   Function(DialogRequest)? _showDialogListener;
   Completer<DialogResponse>? _dialogCompleter;
 
