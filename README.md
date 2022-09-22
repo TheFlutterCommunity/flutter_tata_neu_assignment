@@ -1,16 +1,20 @@
-# flutter_tata_neu_assignment
+# Tata Neu Assignment
 
-A new Flutter project.
+A Flutter application to showcase Tata Neu Home Page.
 
-## Getting Started
+# Android Screen
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-0.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-1.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-2.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-3.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-4.png?raw=true"> 
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# iOS Screen
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/ios/ios-0.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/ios/ios-1.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/ios/ios-2.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/ios/ios-3.png?raw=true"> 
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/ios/ios-4.png?raw=true"> 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
