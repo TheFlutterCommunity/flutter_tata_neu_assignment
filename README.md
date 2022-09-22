@@ -16,6 +16,9 @@ For developing the Tata Neu Home page, below main packages are used:
 #### **App Icon**:
 *flutter_launcher_icons*
 
+# Demo
+<img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/gif/app-flow.gif?raw=true"> 
+
 # Android Screen
 <img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-0.png?raw=true"> <img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-1.png?raw=true"> <img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-2.png?raw=true"> <img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-3.png?raw=true"> <img height="480px" src="https://github.com/TheFlutterCommunity/flutter_tata_neu_assignment/blob/master/screenshots/android/android-4.png?raw=true"> 
 
