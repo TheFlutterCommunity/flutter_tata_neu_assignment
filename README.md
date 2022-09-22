@@ -5,15 +5,15 @@ A Flutter application to showcase Tata Neu Home Page.
 In this assignment, I mainly focused on good Project architecture (that helps with project scalability and easy maintenance), state management, modularity, naming convention and optimizations etc. I tried to make this assignment as a real project by using mock API, localization, custom components, Navigator 2.0, constants and custom fonts etc.
 
 For developing the Tata Neu Home page, below main packages are used:
-##### **Architecture**:
+#### **Architecture**:
 *MVVM*
-##### **State Management**:
+#### **State Management**:
 *Provider with get_it*
-##### **API Communication**:
+#### **API Communication**:
 *retrofit, dio, build_runner, json_serializable, retrofit_generator*
-##### **Multi Language**:
+#### **Multi Language**:
 *flutter_localizations*
-##### **App Icon**:
+#### **App Icon**:
 *flutter_launcher_icons*
 
 # Android Screen
