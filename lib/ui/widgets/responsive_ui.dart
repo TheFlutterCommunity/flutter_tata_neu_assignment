@@ -219,17 +219,17 @@ class ResponsiveWidget {
 
   static double ourSpecialityStoreOfferFontSize() {
     return isScreenLarge!
-        ? 18
+        ? 22
         : isScreenMedium!
-        ? 18
+        ? 22
         : 16;
   }
 
   static double ourSpecialityStoreSubtitleFontSize() {
     return isScreenLarge!
-        ? 20
+        ? 22
         : isScreenMedium!
-        ? 20
+        ? 22
         : 18;
   }
 
