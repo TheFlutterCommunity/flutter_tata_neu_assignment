@@ -7,17 +7,32 @@ import 'package:flutter_tata_neu_assignment/core/models/dashboard_details.dart';
 import 'package:flutter_tata_neu_assignment/core/view_models/dashboard/dashboard_view_model.dart';
 import 'package:flutter_tata_neu_assignment/ui/widgets/responsive_ui.dart';
 
-class CustomCarouselSlider extends StatelessWidget {
+class CustomCarouselSlider extends StatefulWidget {
   final DashboardViewModel? model;
 
   const CustomCarouselSlider({this.model, Key? key}) : super(key: key);
 
   @override
+  State<CustomCarouselSlider> createState() => _CustomCarouselSliderState();
+}
+
+class _CustomCarouselSliderState extends State<CustomCarouselSlider> {
+  CarouselController? _carouselController;
+
+  @override
+  void initState() {
+    super.initState();
+
+    _carouselController = CarouselController();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    if (model!.dashboardDetails == null ||
-        model!.dashboardDetails!.topBanner == null) {
+    if (widget.model!.dashboardDetails == null ||
+        widget.model!.dashboardDetails!.topBanner == null) {
       return _buildEmptyBannerForCarousel();
     }
+
     return Column(
       children: [
         Container(
@@ -27,15 +42,18 @@ class CustomCarouselSlider extends StatelessWidget {
           child: ClipRRect(
             borderRadius: BorderRadius.circular(10.0),
             child: CarouselSlider.builder(
+              carouselController: _carouselController,
               itemBuilder: (context, index, idx) {
                 return _buildPageItemSection(
-                    model!.dashboardDetails!.topBanner![index]);
+                    widget.model!.dashboardDetails!.topBanner![index]);
               },
               options: CarouselOptions(
-                viewportFraction: 1,
-                autoPlay: true,
-              ),
-              itemCount: model!.dashboardDetails!.topBanner!.length,
+                  viewportFraction: 1,
+                  autoPlay: true,
+                  onPageChanged: (index, _) {
+                    locator<DashboardViewModel>().topBannerIndex = index;
+                  }),
+              itemCount: widget.model!.dashboardDetails!.topBanner!.length,
             ),
           ),
         ),
@@ -76,7 +94,7 @@ class CustomCarouselSlider extends StatelessWidget {
     return CarouselIndicator(
       width: 30,
       height: 2,
-      count: model!.dashboardDetails!.topBanner!.length,
+      count: widget.model!.dashboardDetails!.topBanner!.length,
       activeColor: AppColor.white.withOpacity(0.6),
       index: locator<DashboardViewModel>().topBannerIndex,
       animationDuration: 10,

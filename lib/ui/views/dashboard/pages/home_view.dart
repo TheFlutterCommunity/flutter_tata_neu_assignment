@@ -424,11 +424,12 @@ class _HomeViewState extends State<HomeView> {
             top: Platform.isIOS ? 150 : 140,
             bottom: 0,
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 CustomText(
                   text: item.offer ?? '',
                   color: AppColor.white,
-                  fontSize: Platform.isIOS ? 18 : 24,
+                  fontSize: Platform.isIOS ? 18 : 20,
                   fontFamily: FontFamilyConstants.interMedium,
                   fontWeight: FontWeight.w600,
                 ),
@@ -440,7 +441,7 @@ class _HomeViewState extends State<HomeView> {
                     borderRadius: BorderRadius.circular(10),
                     color: AppColor.white,
                   ),
-                  margin: const EdgeInsets.only(top: 4, bottom: 4),
+                  margin: const EdgeInsets.only(top: 2, bottom: 2),
                 ),
                 item.title != null && item.title!.contains('#')
                     ? RichText(
@@ -666,7 +667,7 @@ class _HomeViewState extends State<HomeView> {
       children: [
         Container(
           margin:
-              const EdgeInsets.only(top: 70, left: 10, right: 10, bottom: 10),
+              const EdgeInsets.only(top: 72, left: 10, right: 10, bottom: 10),
           decoration: BoxDecoration(
             color: item.color != null && item.color!.isNotEmpty
                 ? Color(int.parse(item.color!))
@@ -679,7 +680,7 @@ class _HomeViewState extends State<HomeView> {
           ),
           child: Container(
             alignment: Alignment.bottomCenter,
-            padding: const EdgeInsets.only(left: 20, bottom: 12),
+            padding: const EdgeInsets.only(left: 20, bottom: 20),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -691,7 +692,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w700,
-                        fontSize: Platform.isIOS ? 16 : 20,
+                        fontSize: Platform.isIOS ? 16 : 18,
                       )
                     : Container(),
                 item.subtitle!.isNotEmpty
@@ -701,7 +702,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w700,
-                        fontSize: Platform.isIOS ? 20 : 24,
+                        fontSize: Platform.isIOS ? 20 : 22,
                       )
                     : Container(),
                 item.offer!.isNotEmpty
@@ -711,7 +712,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w500,
-                        fontSize: Platform.isIOS ? 16 : 22,
+                        fontSize: Platform.isIOS ? 16 : 20,
                       )
                     : Container()
               ],
