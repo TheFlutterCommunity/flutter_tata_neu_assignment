@@ -187,10 +187,10 @@ class ResponsiveWidget {
 
   static double entertainmentCardTitleFontSize() {
     return isScreenLarge!
-        ? 16
+        ? 14
         : isScreenMedium!
-            ? 16
-            : 14;
+            ? 14
+            : 10;
   }
 
   static double entertainmentCardOfferTitleFontSize() {
@@ -214,6 +214,30 @@ class ResponsiveWidget {
         ? 20
         : isScreenMedium!
         ? 20
+        : 14;
+  }
+
+  static double ourSpecialityStoreOfferFontSize() {
+    return isScreenLarge!
+        ? 18
+        : isScreenMedium!
+        ? 18
+        : 16;
+  }
+
+  static double ourSpecialityStoreSubtitleFontSize() {
+    return isScreenLarge!
+        ? 20
+        : isScreenMedium!
+        ? 20
+        : 18;
+  }
+
+  static double ourSpecialityStoreTitleFontSize() {
+    return isScreenLarge!
+        ? 18
+        : isScreenMedium!
+        ? 18
         : 14;
   }
 
@@ -253,7 +277,7 @@ class ResponsiveWidget {
         ? 19
         : isScreenMedium!
         ? 19
-        : 16;
+        : 15;
   }
 
   static double topOfferTitleFontSize() {

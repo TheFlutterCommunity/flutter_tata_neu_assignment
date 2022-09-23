@@ -257,7 +257,7 @@ class _HomeViewState extends State<HomeView> {
 
   Widget _buildExploreGridCardSection(DashboardViewModel model) {
     return Container(
-      padding: const EdgeInsets.only(top: 10, bottom: 40),
+      padding: const EdgeInsets.only(top: 20, bottom: 20),
       child: GridView.count(
         physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
@@ -357,7 +357,7 @@ class _HomeViewState extends State<HomeView> {
 
   Widget _buildTopGroceryGridCardSection(DashboardViewModel model) {
     return Container(
-      padding: const EdgeInsets.only(top: 10, bottom: 40),
+      padding: const EdgeInsets.only(top: 15, bottom: 20),
       child: GridView.count(
         physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
@@ -507,7 +507,7 @@ class _HomeViewState extends State<HomeView> {
 
   Widget _buildEntertainmentStoreGridCardSection(DashboardViewModel model) {
     return Container(
-      padding: const EdgeInsets.only(top: 10, bottom: 40),
+      padding: const EdgeInsets.only(top: 20, bottom: 40),
       child: GridView.count(
         physics: const NeverScrollableScrollPhysics(),
         scrollDirection: Axis.vertical,
@@ -532,7 +532,8 @@ class _HomeViewState extends State<HomeView> {
 
   Widget _buildEntertainmentStoreItems(int index, ProductItem item) {
     return Container(
-      margin: const EdgeInsets.symmetric(vertical: 5, horizontal: 5),
+      margin: const EdgeInsets.symmetric(
+          vertical: 5, horizontal: 5),
       decoration: const BoxDecoration(
         borderRadius: BorderRadius.all(Radius.circular(8)),
       ),
@@ -609,7 +610,7 @@ class _HomeViewState extends State<HomeView> {
               ),
               child: CustomText(
                 text: item.title ?? '',
-                fontSize: Platform.isIOS ? 12 : 14,
+                fontSize: Platform.isIOS ? 12 : ResponsiveWidget.entertainmentCardTitleFontSize(),
                 color: AppColor.blackColor.withOpacity(0.9),
                 fontWeight: FontWeight.w400,
               ),
@@ -629,7 +630,7 @@ class _HomeViewState extends State<HomeView> {
           : '',
       color: AppColor.white,
       fontWeight: FontWeight.w400,
-      fontSize: 19,
+      fontSize: ResponsiveWidget.entertainmentStoreTitleFontSize(),
     );
   }
 
@@ -692,7 +693,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w700,
-                        fontSize: Platform.isIOS ? 16 : 18,
+                        fontSize: Platform.isIOS ? 16 :  ResponsiveWidget.ourSpecialityStoreTitleFontSize(),
                       )
                     : Container(),
                 item.subtitle!.isNotEmpty
@@ -702,7 +703,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w700,
-                        fontSize: Platform.isIOS ? 20 : 22,
+                        fontSize: Platform.isIOS ? 20 : ResponsiveWidget.ourSpecialityStoreSubtitleFontSize(),
                       )
                     : Container(),
                 item.offer!.isNotEmpty
@@ -712,7 +713,7 @@ class _HomeViewState extends State<HomeView> {
                         testAlignment: TextAlign.start,
                         fontFamily: FontFamilyConstants.interMedium,
                         fontWeight: FontWeight.w500,
-                        fontSize: Platform.isIOS ? 16 : 20,
+                        fontSize: Platform.isIOS ? 16 : ResponsiveWidget.ourSpecialityStoreOfferFontSize(),
                       )
                     : Container()
               ],
