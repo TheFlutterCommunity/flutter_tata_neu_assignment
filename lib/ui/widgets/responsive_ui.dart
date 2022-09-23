@@ -208,4 +208,66 @@ class ResponsiveWidget {
             ? 1.50
             : 1.40;
   }
+
+  static double topOfferFontSize() {
+    return isScreenLarge!
+        ? 20
+        : isScreenMedium!
+        ? 20
+        : 14;
+  }
+
+  static double topOfferMiddleTitleFontSize() {
+    return isScreenLarge!
+        ? 13
+        : isScreenMedium!
+        ? 13
+        : 8;
+  }
+
+  static double topOfferTitleMarginTop() {
+    return isScreenLarge!
+        ? 140
+        : isScreenMedium!
+        ? 140
+        : 130;
+  }
+  static double topSubTitleOfferFontSize() {
+    return isScreenLarge!
+        ? 14
+        : isScreenMedium!
+        ? 14
+        : 11;
+  }
+
+  static double exploreTitleFontSize() {
+    return isScreenLarge!
+        ? 13
+        : isScreenMedium!
+        ? 13
+        : 10;
+  }
+
+  static double entertainmentStoreTitleFontSize() {
+    return isScreenLarge!
+        ? 19
+        : isScreenMedium!
+        ? 19
+        : 16;
+  }
+
+  static double topOfferTitleFontSize() {
+    return isScreenLarge!
+        ? 16
+        : isScreenMedium!
+        ? 16
+        : 14;
+  }
+  static double topOfferTitle2FontSize() {
+    return isScreenLarge!
+        ? 16
+        : isScreenMedium!
+        ? 16
+        : 14;
+  }
 }

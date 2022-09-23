@@ -250,7 +250,7 @@ class _HomeViewState extends State<HomeView> {
         text: AppLocalizations.of(context).translate('explore'),
         color: AppColor.white,
         fontWeight: FontWeight.w400,
-        fontSize: 19,
+        fontSize: ResponsiveWidget.entertainmentStoreTitleFontSize(),
       ),
     );
   }
@@ -295,7 +295,7 @@ class _HomeViewState extends State<HomeView> {
         color: AppColor.white,
         fontWeight: FontWeight.w600,
         fontFamily: FontFamilyConstants.interMedium,
-        fontSize: 13,
+        fontSize: ResponsiveWidget.exploreTitleFontSize(),
       ),
     );
   }
@@ -315,7 +315,7 @@ class _HomeViewState extends State<HomeView> {
                   : '',
               color: AppColor.white,
               fontWeight: FontWeight.w400,
-              fontSize: 19,
+              fontSize: ResponsiveWidget.entertainmentStoreTitleFontSize(),
             ),
             Container(
               padding: const EdgeInsets.only(top: 5),
@@ -325,7 +325,7 @@ class _HomeViewState extends State<HomeView> {
                     text: AppLocalizations.of(context).translate('view_more'),
                     color: AppColor.white,
                     fontWeight: FontWeight.w400,
-                    fontSize: 16,
+                    fontSize: ResponsiveWidget.topOfferTitle2FontSize()
                   ),
                   Container(
                     height: 2,
@@ -348,7 +348,7 @@ class _HomeViewState extends State<HomeView> {
                 : '',
             color: AppColor.white.withOpacity(0.7),
             fontWeight: FontWeight.w400,
-            fontSize: 16,
+            fontSize: ResponsiveWidget.topOfferTitleFontSize(),
           ),
         ),
       ],
@@ -421,7 +421,7 @@ class _HomeViewState extends State<HomeView> {
           Positioned(
             left: 20,
             right: 20,
-            top: Platform.isIOS ? 150 : 140,
+            top: Platform.isIOS ? 150 : ResponsiveWidget.topOfferTitleMarginTop(),
             bottom: 0,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -429,7 +429,7 @@ class _HomeViewState extends State<HomeView> {
                 CustomText(
                   text: item.offer ?? '',
                   color: AppColor.white,
-                  fontSize: Platform.isIOS ? 18 : 20,
+                  fontSize: Platform.isIOS ? 18 : ResponsiveWidget.topOfferFontSize(),
                   fontFamily: FontFamilyConstants.interMedium,
                   fontWeight: FontWeight.w600,
                 ),
@@ -450,9 +450,9 @@ class _HomeViewState extends State<HomeView> {
                             children: [
                               TextSpan(
                                   text: item.title!.split('#')[0],
-                                  style: const TextStyle(
+                                  style:TextStyle(
                                       color: AppColor.orange_1,
-                                      fontSize: 13,
+                                      fontSize:Platform.isIOS ? 13 : ResponsiveWidget.topOfferMiddleTitleFontSize(),
                                       fontWeight: FontWeight.w600)),
                               TextSpan(
                                 text: item.title!.split('#')[1],
@@ -466,7 +466,7 @@ class _HomeViewState extends State<HomeView> {
                         color: AppColor.white,
                         fontWeight: FontWeight.w500,
                         fontFamily: FontFamilyConstants.interMedium,
-                        fontSize: 14,
+                        fontSize: ResponsiveWidget.topSubTitleOfferFontSize(),
                       ),
               ],
             ),
@@ -490,7 +490,7 @@ class _HomeViewState extends State<HomeView> {
                 : '',
             color: AppColor.white,
             fontWeight: FontWeight.w400,
-            fontSize: 19,
+            fontSize: ResponsiveWidget.entertainmentStoreTitleFontSize(),
           ),
         ),
         const Expanded(
